@@ -54,19 +54,3 @@ Or using docker-compose:
 ```powershell
 docker-compose up --build
 ```
-
-Publish to GitHub
------------------
-1. Create a new repository on GitHub.
-2. Initialize git locally and push:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/blaszkaaa/CryptoAuto.git
-git push -u origin main
-```
-
-CI is provided via `.github/workflows/ci.yml` which runs tests on push.
