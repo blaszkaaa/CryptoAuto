@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+env/
+build/
+dist/
+*.py[cod]
+*.egg-info/
+data/
+.env
+cryptoauto.log
+.vscode/
+/.pytest_cache/
+*.sqlite

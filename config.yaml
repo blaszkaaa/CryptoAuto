@@ -1,0 +1,16 @@
+symbols:
+  crypto: ["BTC-USD", "ETH-USD"]
+  stocks: ["TSLA", "AAPL"]
+storage:
+  format: csv  # csv, json, sqlite
+  path: data
+schedule:
+  interval_minutes: 10
+report:
+  enabled: true
+  method: console  # console or email
+email:
+  smtp_server: "smtp.example.com"
+  smtp_port: 587
+  username: "user@example.com"
+  password: ""  # use environment variable in production

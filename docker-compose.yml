@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  cryptoauto:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+    environment:
+      - SMTP_PASSWORD=
+    command: ["python", "-m", "cryptoauto"]

@@ -1,0 +1,7 @@
+requests
+pandas
+yfinance
+schedule
+python-dotenv
+pyyaml
+rich
